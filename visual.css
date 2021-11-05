@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://cutewallpaper.org/21/jojo-backgrounds/45-Jojo-Background-on-WallpaperSafari.png);
+     
+}
+
+    /* 1 */
+
+.greenred{
+    background-color: springgreen;
+    border-radius: 30px;
+    height: 350px;
+    width: 1000px;
+    position: absolute;
+    left: 22.5%;
+    top: 10%;
+
+}
+
+.text {
+    width: 100px; height: px;
+    position: absolute;
+    left: 45%;
+    bottom: 650px;
+
+}
+
+.check{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    left: 850px;
+    top: 30%;
+    -webkit-appearance: none;
+    border-radius: 50px;
+    background-color: greenyellow;
+    outline: 50px;
+}
+
+input:checked[type="checkbox"]{
+    background-color: crimson;
+     
+}
+
+input[type="checkbox"]:before{
+    content: '';
+    transition: .5s;
+    transform: scale(1,1);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: -7%;
+    left: -3px;
+}
+
+input:checked[type="checkbox"]:before{
+    left: 83px;
+}
+
+    /* 2 */
+
+
+.menu {
+    background: linear-gradient(65deg, aquamarine 60%, azure);
+    border-radius: 50px;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 60%;
+    right: 25%;
+}                   
+
+.box1 {
+    height: 500px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
+.profile{
+    position: absolute;
+    top: -80px;
+    left: 45px;
+    color: cornflowerblue;
+}
+
+.gamepad {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    border-radius: 50px;
+}
+
+.playtext {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    color: cornflowerblue;
+}
